@@ -248,4 +248,90 @@ nav img {
 
 
 
+/* Solution Section */
+/* Center the whole section in the page */
+.solution-section {
+  display: flex;
+  align-items: center;       /* vertical centering of text and image inside section */
+  justify-content: center;   /* horizontal centering of the whole section */
+  gap: 60px;                 /* space between image and text */
+  padding: 40px;
+  height: 100vh;             /* full viewport height */
+  box-sizing: border-box;
+}
+
+/* Left: Image */
+.solution-image img {
+  width: 600px;
+  height: 600px;
+  border-radius: 12px;
+  object-fit: cover;         /* keeps aspect ratio */
+}
+
+/* Right: Text Content */
+.solution-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* vertically center text within the column */
+  gap: 16px;    
+  margin-bottom: 16px;             /* vertical gap between elements */
+  max-width: 600px;
+}
+
+/* Subtitle */
+.solution-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 16px; 
+}
+
+/* Title */
+.solution-title {
+  font-size: 46px;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* Description Paragraph */
+.solution-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  text-align: left;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 35px; 
+}
+
+/* Features (h4) */
+.solution-features {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.solution-features h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 10px;                 /* space between check icon and text */
+  margin: 0;
+}
+
+.solution-features h4 img {
+  width: 20px;
+  height: 20px;
+}
+
+
+
 
