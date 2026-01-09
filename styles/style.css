@@ -66,6 +66,40 @@ nav img {
   z-index: 1;
 }
 
+.early-access-container {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 20px;  
+}
+
+.early-access-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background-color: #ffffff;
+  color: #469165;
+  border: 2px solid #469165;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  transition: background 0.3s, color 0.3s;
+}
+
+.early-access-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+.early-access-btn:hover {
+  background-color: #469165;
+  color: #ffffff;
+}
+
+
 .hero-content {
   position: relative;
   z-index: 2;
