@@ -19,7 +19,6 @@ nav {
   justify-content: space-between;
 }
 
-/* LEFT: Button */
 nav button {
   padding: 10px 18px;
   border: none;
@@ -30,7 +29,6 @@ nav button {
   font-size: 14px;
 }
 
-/* CENTER: UL */
 nav ul {
   list-style: none;
   display: flex;
@@ -43,46 +41,39 @@ nav ul li a {
   font-weight: 500;
 }
 
-/* RIGHT: Logo */
 nav img {
   width: 139px;
   height: 60px;
 }
 
-
-
-/* HERO SECTION */
 .hero {
   position: relative;
   width: 100%;
-  height: 674px; /* fixed height */
+  height: 674px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
-/* Background Image */
 .hero-bg img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 674px; /* same as hero height */
-  object-fit: cover; /* keeps aspect ratio and fills hero */
+  height: 674px;
+  object-fit: cover;
   z-index: 1;
 }
 
-/* Content (text + buttons) */
 .hero-content {
   position: relative;
-  z-index: 2; /* above bg */
+  z-index: 2;
   text-align: center;
   max-width: 800px;
   padding: 0 20px;
 }
 
-/* H1 styling */
 .hero-content h1 {
   font-size: 72px;
   font-weight: bold;
@@ -98,7 +89,6 @@ nav img {
   color: #30B868;
 }
 
-/* Paragraph styling */
 .hero-content p {
   color: #ffffff;
   font-size: 18px;
@@ -107,7 +97,6 @@ nav img {
   line-height: 1.5;
 }
 
-/* Buttons container */
 .hero-buttons {
   display: flex;
   gap: 20px;
@@ -115,7 +104,6 @@ nav img {
   flex-wrap: wrap;
 }
 
-/* Primary Button */
 .btn-primary {
   display: flex;
   align-items: center;
@@ -135,12 +123,10 @@ nav img {
   height: 16px;
 }
 
-/* Hover effect */
 .btn-primary:hover {
   background-color: #3b7a53;
 }
 
-/* Secondary Button */
 .btn-secondary {
   display: flex;
   align-items: center;
@@ -160,78 +146,65 @@ nav img {
   height: 16px;
 }
 
-/* Hover effect for secondary */
 .btn-secondary:hover {
   background-color: #ffffff;
   color: #469165;
 }
 
-
-
-/* Centered page section */
 .centered-page {
   display: flex;
-  flex-direction: column;      /* stack h1 and p vertically */
-  justify-content: center;     /* vertical center */
-  align-items: center;         /* horizontal center */
-  margin-top: 50px;          
-  padding: 0 20px;             /* some padding for small screens */
-  text-align: center;           /* center the text */
- 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 20px;
+  text-align: center;
 }
 
-/* H1 styling */
 .centered-page h1 {
   font-size: 48px;
- 
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
-/* Paragraph styling */
 .centered-page p {
   font-size: 16px;
   color: #627382;
-  max-width: 700px;  /* optional: limit width for readability */
+  max-width: 700px;
   line-height: 1.5;
 }
 
-
-
-/* Container for all cards */
 .cards-container {
   display: flex;
-  flex-direction: row;       /* horizontal row */
-  justify-content: center; /* space evenly between cards */
-  flex-wrap: wrap;           /* wrap to next line if screen is small */
-  gap: 44px;                 /* space between cards */
-  padding: 20px;   
-  margin-top: 60px;          /* container padding */
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 20px;
+  margin-top: 60px;
 }
 
 .vertical-card {
   display: flex;
-  flex-direction: column;       /* vertical flow */
-  width: 322px;                 /* fixed width */
-  height: 300px;                /* fixed height */
-  padding: 24px;                /* inner spacing */
-  gap: 16px;                    /* space between items */
-  background-color: #ffffff;    /* card background */
-  border-radius: 8px;           /* rounded corners */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow */
-  text-align: center;           /* center text horizontally */
-  justify-content: center;      /* center content vertically if needed */
-  align-items: center;          /* center content horizontally */
+  flex-direction: column;
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  gap: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-/* Logo/Image inside card */
 .vertical-card-image {
-  width: 60px;                  /* logo width */
-  height: 60px;                 /* logo height */
-  object-fit: contain;          /* keep aspect ratio */
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
-/* Card Title */
 .vertical-card-title {
   font-size: 20px;
   font-weight: 600;
@@ -239,56 +212,47 @@ nav img {
   color: #000000;
 }
 
-/* Card Text */
 .vertical-card-text {
   font-size: 16px;
   color: #627382;
   margin-top: 5px;
 }
 
-
-
-/* Solution Section */
-/* Center the whole section in the page */
 .solution-section {
   display: flex;
-  align-items: center;       /* vertical centering of text and image inside section */
-  justify-content: center;   /* horizontal centering of the whole section */
-  gap: 60px;                 /* space between image and text */
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
   padding: 40px;
-  height: 100vh;             /* full viewport height */
+  height: 100vh;
   box-sizing: border-box;
 }
 
-/* Left: Image */
 .solution-image img {
   width: 600px;
   height: 600px;
   border-radius: 12px;
-  object-fit: cover;         /* keeps aspect ratio */
+  object-fit: cover;
 }
 
-/* Right: Text Content */
 .solution-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;   /* vertically center text within the column */
-  gap: 16px;    
-  margin-bottom: 16px;             /* vertical gap between elements */
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
   max-width: 600px;
 }
 
-/* Subtitle */
 .solution-subtitle {
   font-size: 16px;
   font-weight: 500;
   color: #469165;
   text-align: left;
   margin: 0;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
 }
 
-/* Title */
 .solution-title {
   font-size: 46px;
   font-weight: 700;
@@ -298,7 +262,6 @@ nav img {
   line-height: 1.2;
 }
 
-/* Description Paragraph */
 .solution-description {
   font-size: 16px;
   font-weight: 400;
@@ -306,10 +269,9 @@ nav img {
   text-align: left;
   line-height: 1.5;
   margin: 0;
-  margin-bottom: 35px; 
+  margin-bottom: 35px;
 }
 
-/* Features (h4) */
 .solution-features {
   display: flex;
   flex-direction: column;
@@ -323,7 +285,7 @@ nav img {
   text-align: left;
   display: flex;
   align-items: center;
-  gap: 10px;                 /* space between check icon and text */
+  gap: 10px;
   margin: 0;
 }
 
@@ -332,43 +294,36 @@ nav img {
   height: 20px;
 }
 
-
-
-/* CTA Section */
 .cta-section {
   display: flex;
-  flex-direction: column;       /* stack elements vertically */
-  justify-content: center;      /* vertical center */
-  align-items: center;          /* horizontal center */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-                /* full viewport height */
-  gap: 20px;                    /* space between elements */
-  padding: 0 20px;              /* horizontal padding for small screens */
+  gap: 20px;
+  padding: 0 20px;
 }
 
-/* H1 */
 .cta-section h1 {
   font-size: 40px;
-  font-weight: 700;             /* bold */
+  font-weight: 700;
   color: #000000;
   margin: 0;
   line-height: 1.2;
 }
 
-/* Paragraphs */
 .cta-section p {
   font-size: 16px;
-  font-weight: 400;             /* regular */
+  font-weight: 400;
   color: #627382;
   margin: 0;
   line-height: 1.5;
 }
 
-/* Button */
 .cta-button {
   display: flex;
   align-items: center;
-  gap: 10px;                    /* space between text and icon */
+  gap: 10px;
   background-color: #469165;
   color: #ffffff;
   font-size: 16px;
@@ -386,12 +341,74 @@ nav img {
   height: 16px;
 }
 
-/* Hover effect */
 .cta-button:hover {
   background-color: #3b7a53;
 }
 
+.footer {
+  width: 100%;
+  background-color: #001931;
+  color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
 
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 110px;
+  gap: 1000px;
+  padding-right: 120px;
+  margin-left: 120px;
+}
 
+.footer-logo {
+  margin-top: 70px;
+  height: auto;
+  max-width: 200px;
+}
 
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 70px;
+  gap: 16px;
+}
 
+.footer-social h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-line {
+  width: 90%;
+  border: 0;
+  border-top: 1px solid #ffffff33;
+  margin: 50px 0 20px 0;
+}
+
+.footer-bottom p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
