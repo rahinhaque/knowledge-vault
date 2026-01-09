@@ -197,3 +197,55 @@ nav img {
 }
 
 
+
+/* Container for all cards */
+.cards-container {
+  display: flex;
+  flex-direction: row;       /* horizontal row */
+  justify-content: center; /* space evenly between cards */
+  flex-wrap: wrap;           /* wrap to next line if screen is small */
+  gap: 44px;                 /* space between cards */
+  padding: 20px;   
+  margin-top: 60px;          /* container padding */
+}
+
+.vertical-card {
+  display: flex;
+  flex-direction: column;       /* vertical flow */
+  width: 322px;                 /* fixed width */
+  height: 300px;                /* fixed height */
+  padding: 24px;                /* inner spacing */
+  gap: 16px;                    /* space between items */
+  background-color: #ffffff;    /* card background */
+  border-radius: 8px;           /* rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* subtle shadow */
+  text-align: center;           /* center text horizontally */
+  justify-content: center;      /* center content vertically if needed */
+  align-items: center;          /* center content horizontally */
+}
+
+/* Logo/Image inside card */
+.vertical-card-image {
+  width: 60px;                  /* logo width */
+  height: 60px;                 /* logo height */
+  object-fit: contain;          /* keep aspect ratio */
+}
+
+/* Card Title */
+.vertical-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #000000;
+}
+
+/* Card Text */
+.vertical-card-text {
+  font-size: 16px;
+  color: #627382;
+  margin-top: 5px;
+}
+
+
+
+
