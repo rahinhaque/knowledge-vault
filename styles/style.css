@@ -166,3 +166,34 @@ nav img {
   color: #469165;
 }
 
+
+
+/* Centered page section */
+.centered-page {
+  display: flex;
+  flex-direction: column;      /* stack h1 and p vertically */
+  justify-content: center;     /* vertical center */
+  align-items: center;         /* horizontal center */
+  margin-top: 50px;          
+  padding: 0 20px;             /* some padding for small screens */
+  text-align: center;           /* center the text */
+ 
+}
+
+/* H1 styling */
+.centered-page h1 {
+  font-size: 48px;
+ 
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+/* Paragraph styling */
+.centered-page p {
+  font-size: 16px;
+  color: #627382;
+  max-width: 700px;  /* optional: limit width for readability */
+  line-height: 1.5;
+}
+
+
